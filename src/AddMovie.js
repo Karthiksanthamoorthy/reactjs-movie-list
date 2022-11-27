@@ -17,7 +17,7 @@ export function AddMovie({ movieList, setMovieList }) {
     };
 
     setMovieList([...movieList, newMovie]);
-    console.log(newMovie);
+    // console.log(newMovie);
   };
 
   return (<div className="add-movie-form">
